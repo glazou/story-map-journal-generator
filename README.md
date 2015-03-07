@@ -16,4 +16,4 @@ The resulting application is hosted in ArcGIS Online, you can edit it later as i
 3. Optionally if you want to use the `webmap-x-y` type, edit the webmap ID
 2. Deploy
 
-**Make sure to not expose the application publicly**
+**Make sure to not deploy the application on a public server to avoid exposing your password.**
