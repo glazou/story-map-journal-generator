@@ -6,7 +6,7 @@ The typical Map Journal creation involve using the integrated WYSIWYG builder. T
 
 The resulting application is hosted in ArcGIS Online, you can edit it later as if you had used the builder.
 
-[Live demo](https://cdn.rawgit.com/glazou/story-map-journal-generator/master/index.html) | 
+[Live demo](https://rawgit.com/glazou/story-map-journal-generator/master/index.html) | 
 [Map Journal GitHub repository](https://github.com/Esri/map-journal-storytelling-template-js) |
 [Map Journal page on Esri Story Maps website](http://storymaps.arcgis.com/en/app-list/map-journal/)
 
