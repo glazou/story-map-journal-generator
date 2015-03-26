@@ -78,7 +78,7 @@ With a section being defined by a title a `Main Stage` (larger area) and `Panel`
 }
 ```
 
-See some exemple below.
+See some examples below.
 
 **Section with an image in the Main Stage**
 
