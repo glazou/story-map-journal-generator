@@ -13,7 +13,7 @@ var ARCGIS_INFO = {
 		type: 'oauth', // 'oauth' | 'user'
 		// OAuth configuration
 		oauth: {
-			appid: '',
+			appid: 'YVh0vMW0FEJDMWoy',
 			jsapi: '//js.arcgis.com/3.13/'
 		},
 		// User configuration
