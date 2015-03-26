@@ -1,0 +1,252 @@
+{
+    "values": {
+        "settings": {
+            "layout": {
+                "id": "side"
+            }
+        },
+        "story": {
+            "storage": "WEBAPP",
+            "sections": [{
+                "title": "<p><strong><span style=\"font-size:36px\">Demo Map Journal</span></strong></p>\n",
+                "content": "<p>I am the first section of the Journal. I could include images, videos and webpages here.&nbsp;The text can also be formatted using html markup and include links. See the next section for main highlights...</p>\n\n<p>&nbsp;</p>\n\n<p>Typically author use that section as a cover and include a nice image. Notice how the title will get anchored in the header once the title of that first section won&#39;t be visible in the panel.</p>\n",
+                "contentActions": [],
+                "creaDate": 1425001088574,
+                "pubDate": 1425001088574,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "image",
+                    "image": {
+                        "url": "http://farm8.static.flickr.com/7373/13429795365_f57595be16_b.jpg",
+                        "type": "image",
+                        "display": "fill"
+                    }
+                }
+            }, {
+                "title": "<p><strong><span style=\"font-size:22px\">Second section</span></strong></p>\n",
+                "content": "<p>Including a random map</p>\n\n<p>The thing with Map Journal is that if your section don&#39;t have a lot of content, scrolling int the viewer can be hectic. We can workaround using CSS if that&#39;s an issue. Most simple when you demo is to click on the section and not scroll the panel.</p>\n\n<p>padding</p>\n\n<p>padding</p>\n\n<p>padding</p>\n\n<p>padding</p>\n\n<p>padding</p>\n\n<p>padding</p>\n",
+                "contentActions": [],
+                "creaDate": 1425000191047,
+                "pubDate": 1425000191047,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "webmap",
+                    "webmap": {
+                        "id": "d887ad69ba6740fdb9b7cc19a796f5ff",
+                        "extent": null,
+                        "layers": null,
+                        "popup": null,
+                        "overview": {
+                            "enable": false,
+                            "openByDefault": true
+                        },
+                        "legend": {
+                            "enable": false,
+                            "openByDefault": false
+                        }
+                    }
+                }
+            }, {
+                "title": "<p><strong><span style=\"font-size:22px\">Third section</span></strong></p>\n",
+                "content": "<p>Reusing the same map than in the previous section, notice that the config is duplicated...</p>\n",
+                "contentActions": [],
+                "creaDate": 1424999620363,
+                "pubDate": 1424999620363,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "webmap",
+                    "webmap": {
+                        "id": "d887ad69ba6740fdb9b7cc19a796f5ff",
+                        "extent": {
+                            "xmin": -13043638.120168399,
+                            "ymin": 3855254.5524819735,
+                            "xmax": -13040886.38715006,
+                            "ymax": 3857287.299702986,
+                            "spatialReference": {
+                                "wkid": 102100
+                            }
+                        },
+                        "layers": null,
+                        "popup": null,
+                        "overview": {
+                            "enable": false,
+                            "openByDefault": true
+                        },
+                        "legend": {
+                            "enable": false,
+                            "openByDefault": false
+                        }
+                    }
+                }
+            }, {
+                "title": "<strong><span style=\"font-size: 22px\">Fourth section</span></strong>",
+                "content": "<p>Let&#39;s open popup, overview and legend</p>\n",
+                "contentActions": [],
+                "creaDate": 1424999647283,
+                "pubDate": 1424999647283,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "webmap",
+                    "webmap": {
+                        "id": "d887ad69ba6740fdb9b7cc19a796f5ff",
+                        "extent": {
+                            "xmin": -13043638.120168399,
+                            "ymin": 3855254.5524819735,
+                            "xmax": -13040886.38715006,
+                            "ymax": 3857287.299702986,
+                            "spatialReference": {
+                                "wkid": 102100
+                            }
+                        },
+                        "layers": null,
+                        "popup": {
+                            "layerId": "mapNotes_456_3",
+                            "fieldName": "OBJECTID",
+                            "fieldValue": 5
+                        },
+                        "overview": {
+                            "enable": true,
+                            "openByDefault": true
+                        },
+                        "legend": {
+                            "enable": true,
+                            "openByDefault": true
+                        }
+                    }
+                }
+            }, {
+                "title": "<p><strong><span style=\"font-size:22px\">Five</span></strong></p>\n",
+                "content": "<p>video + a link to <a href=\"http://www.arcgis.com\" target=\"_blank\">ArcGIS Online</a></p>\n\n<p>&nbsp;</p>\n",
+                "contentActions": [],
+                "creaDate": 1425000061826,
+                "pubDate": 1425000061827,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "video",
+                    "video": {
+                        "url": "//www.youtube.com/embed/ZwzY1o_hB5Y?wmode=opaque",
+                        "type": "video",
+                        "display": "stretch"
+                    }
+                }
+            }, {
+                "title": "<p><strong><span style=\"font-size:22px\">Six</span></strong></p>\n",
+                "content": "<p>webpage and inlining an image here</p>\n\n<figure class=\"caption\">\n<div class=\"image-container activate-fullscreen\"><img alt=\"\" height=\"240\" src=\"http://farm4.static.flickr.com/3670/13406311474_9a4fc6b7b8_b.jpg\" width=\"220\" /></div>\n\n<figcaption>Photo: Michael Nichols, Earth to Sky (Aperture Books). Courtesy of National Geographic Society</figcaption>\n</figure>\n\n<p>&nbsp;</p>\n",
+                "contentActions": [],
+                "creaDate": 1425001126098,
+                "pubDate": 1425001126098,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "webpage",
+                    "webpage": {
+                        "url": "http://www.arcgis.com",
+                        "type": "webpage",
+                        "display": "stretch",
+                        "unload": true
+                    }
+                }
+            }, {
+                "title": "<strong><span style=\"font-size: 22px\">Seven</span></strong>",
+                "content": "<p><strong>Some fancy html markup</strong></p>\n\n<p><em><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></em></p>\n\n<p><u><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></u></p>\n\n<p><span style=\"font-size:22px\">Some fancy html markup</span></p>\n\n<p><span style=\"color:#FF0000\"><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></span></p>\n\n<ol>\n\t<li><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></li>\n\t<li><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></li>\n</ol>\n\n<ul>\n\t<li><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></li>\n\t<li><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></li>\n</ul>\n\n<blockquote>\n<p><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></p>\n</blockquote>\n\n<p style=\"text-align: center;\"><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></p>\n\n<p>&nbsp;</p>\n\n<p style=\"text-align: right;\"><span style=\"font-size:12.8000001907349px\">Some fancy html markup</span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+                "contentActions": [],
+                "creaDate": 1424999813053,
+                "pubDate": 1424999813053,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "image",
+                    "image": {
+                        "url": "http://farm4.static.flickr.com/3784/8971385558_d2d7924450_b.jpg",
+                        "type": "image",
+                        "display": "fill"
+                    }
+                }
+            }, {
+                "title": "<p><strong><span style=\"font-size:22px\">Last but not least</span></strong></p>\n",
+                "content": "<p>We have what we call Main Stage actions. It&#39;s a way to have a link in the content to modify the Main Stage.</p>\n\n<p>&nbsp;</p>\n\n<p><a data-storymaps=\"MJ-ACTION-1424999921866\" data-storymaps-type=\"media\">Move the map using an extent&nbsp;</a></p>\n\n<p><a data-storymaps=\"MJ-ACTION-1424999981399\" data-storymaps-type=\"zoom\">Move the map using a location</a></p>\n\n<p><a data-storymaps=\"MJ-ACTION-1424999946925\" data-storymaps-type=\"media\">Display one image instead of the map</a></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+                "contentActions": [{
+                    "id": "MJ-ACTION-1424999921866",
+                    "type": "media",
+                    "media": {
+                        "type": "webmap",
+                        "webmap": {
+                            "id": "d887ad69ba6740fdb9b7cc19a796f5ff",
+                            "extent": {
+                                "xmin": -13213232.403420495,
+                                "ymin": 3731207.0210781763,
+                                "xmax": -12861010.577082573,
+                                "ymax": 3991398.665360791,
+                                "spatialReference": {
+                                    "wkid": 102100
+                                }
+                            },
+                            "layers": null,
+                            "popup": null,
+                            "overview": {
+                                "enable": false,
+                                "openByDefault": true
+                            },
+                            "legend": {
+                                "enable": false,
+                                "openByDefault": false
+                            }
+                        }
+                    }
+                }, {
+                    "id": "MJ-ACTION-1424999946925",
+                    "type": "media",
+                    "media": {
+                        "type": "image",
+                        "image": {
+                            "url": "http://farm4.static.flickr.com/3810/8971385976_418c756eee_b.jpg",
+                            "type": "image",
+                            "display": "fill"
+                        }
+                    }
+                }, {
+                    "id": "MJ-ACTION-1424999981399",
+                    "type": "zoom",
+                    "zoom": {
+                        "center": {
+                            "type": "point",
+                            "x": -12973762.03091444,
+                            "y": 4006037.9048404563,
+                            "spatialReference": {
+                                "wkid": 102100
+                            }
+                        },
+                        "level": 11,
+                        "mapMarker": true
+                    }
+                }],
+                "creaDate": 1425000235218,
+                "pubDate": 1425000235218,
+                "status": "PUBLISHED",
+                "media": {
+                    "type": "webmap",
+                    "webmap": {
+                        "id": "d887ad69ba6740fdb9b7cc19a796f5ff",
+                        "extent": null,
+                        "layers": null,
+                        "popup": null,
+                        "overview": {
+                            "enable": false,
+                            "openByDefault": true
+                        },
+                        "legend": {
+                            "enable": false,
+                            "openByDefault": false
+                        }
+                    }
+                }
+            }]
+        },
+        "title": "Demo Map Journal generation",
+        "template": {
+            "name": "Map Journal",
+            "generated": true,
+            "generatedWith": "0.0.2",
+            "createdWith": "1.2.1",
+            "editedWith": "1.2.1"
+        }
+    }
+}

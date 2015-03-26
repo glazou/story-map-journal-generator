@@ -1,0 +1,32 @@
+body {
+	padding: 0 10px;
+}
+
+#json-data {
+	width: 100%;
+	height: 500px;
+}
+
+#buttons-container {
+	height: 40px;
+}
+
+#generate-map-journal {
+ 	float: left;
+ 	width: 193px;
+}
+
+#open-map-journal {
+ 	float: left;
+ 	margin-left: 20px;
+}
+
+.progress {
+	float: left;
+	width: 200px;
+	margin: 7px 0 0 20px;
+}
+
+#errormsgcontainer {
+	margin-bottom: 0;
+}

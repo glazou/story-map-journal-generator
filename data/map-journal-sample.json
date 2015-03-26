@@ -1,0 +1,54 @@
+{
+   "title": "Mountains of Fire (generated demo)",
+   "sections": [
+      {
+        "title": "<p><span style=\"color:#ff9900\">Mountains</span> <span style=\"color:#ff6633\">of Fire</span></p>",
+        "mainstage": {
+            "type": "image",
+            "url": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fimmvorduhals_2010_03_27_dawn.jpg/1280px-Fimmvorduhals_2010_03_27_dawn.jpg"
+        },
+        "panel": {
+            "text": "<p><span>Touring the world's deadliest and most active volcanoes</span></p><p>&nbsp;</p><p>Content extracted from <a href=\"http://story.maps.arcgis.com/apps/MapJournal/?appid=4c77a56bbcd743b69232cf3fd9c7a61c\" target=\"_blank\">Moutains of Fire Map Journal</a>.</p><p>&nbsp;</p><p><span style=\"font-size:20px\"><span>They're strung across the breadth of the Earth like glowing necklaces. They cluster densely along geologic boundaries where tectonic plates collide. They threaten millions of people who live within their shadows. They may lie dormant for centuries and then, overnight, spew cubic miles of molten rock and ash.</span></span></p><p>&nbsp;</p><p><span style=\"font-size:20px\"><span>Scroll down to peer into the planet's most dangerous mountains.</span></span></p>"
+        }
+      },
+      {
+        "title": "<p>Second <strong style=\"color:red\">section</strong></p>",
+        "mainstage": {
+            "type": "webmap",
+            "id": "ea8e4e1f70014f3a8919dc3d8c08a29e"
+        },
+        "panel": {
+            "text": "<p>A Map of <strong>world volcanoes</strong>.</p><p>&nbsp;</p><p>&nbsp;</p><p>Open the Map in <a href=\"http://www.arcgis.com/home/webmap/viewer.html?webmap=2a45f767a6e549bfbe5bf638681f1fac\" target=\"_blank\">ArcGIS Online Map Viewer</a>.<p>&nbsp;</p><p>&nbsp;</p></p>"
+        }
+      },
+      {
+        "title": "<p>Third <strong style=\"color:red\">section</strong></p>",
+        "mainstage": {
+            "type": "webpage",
+            "url": "http://story.maps.arcgis.com/home/webscene/viewer.html?webscene=fd3b56984801434aa71f75b1926bde5b&ui=min"
+        },
+        "panel": {
+            "text": "<p>Embed of ArcGIS Online scene viewer, <a href=\"http://story.maps.arcgis.com/home/webscene/viewer.html?webscene=fd3b56984801434aa71f75b1926bde5b\" target=\"_blank\">link to the scene</a>.</p><p><div class=\"image-container activate-fullscreen\"><img src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Fimmvorduhals_2010_03_27_dawn.jpg/1280px-Fimmvorduhals_2010_03_27_dawn.jpg\" /></div></p>"
+        }
+      },
+       {
+        "title": "<p>Fourth <strong style=\"color:red\">section</strong></p>",
+        "mainstage": {
+            "type": "map-x-y",
+            "x": -116.538019,
+            "y": 33.825898,
+            "mapScale": "block",
+            "mapSymbolUrl": "http://static.arcgis.com/images/Symbols/Shapes/PurplePin2LargeB.png",
+            "popupContents": "Hello Palm Springs!"
+        },
+        "panel": {
+            "text": "<p>Map in the main stage <strong>+ map in the panel</strong></p>",
+            "map": {
+                "x": -116.538019,
+                "y": 33.825898,
+                "mapScale": "continent"
+            }
+        }
+      }
+    ]
+}
