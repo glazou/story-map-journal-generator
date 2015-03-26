@@ -95,7 +95,7 @@ See some examples below.
 }
 ```
 
-**Section with a Map in the Main Stage**
+**Section with a web map in the Main Stage**
  ```
 {
 	"title": "<p>Second section</p>",
@@ -109,7 +109,7 @@ See some examples below.
 }
 ```
 
-**Section with a webpage in the Main Stage and an image in the panel**
+**Section with a web page in the Main Stage and an image in the panel**
  ```
 {
 	"title": "<p>Third section</p>",
@@ -123,7 +123,7 @@ See some examples below.
 }
 ```
 
-**Section with a Map in the Main Stage and in the panel configured as an x/y**
+**Section with a map in the Main Stage and in the panel configured as an x/y**
  ```
 {
 	"title": "<p>Fourth <strong style=\"color:red\">section</strong></p>",

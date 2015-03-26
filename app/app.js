@@ -9,18 +9,21 @@
 
 var ARCGIS_INFO = {
 	authentication: {
+		// Choose between OAuth or hardcoded username/password
 		type: 'oauth', // 'oauth' | 'user'
+		// OAuth configuration
 		oauth: {
 			appid: '',
 			jsapi: '//js.arcgis.com/3.13/'
 		},
+		// User configuration
 		user: {
 			user: '',
 			pwd:  '',
 		}
 	},
 	url:  'www.arcgis.com/',
-	// To be edited if 'map-x-y' is used
+	// Enter a webmap id if 'map-x-y' is going to be used
 	webmapForEmbed: 'd6bb04eaaa714482896f3b50a0730e4e'
 };
 
@@ -77,7 +80,7 @@ else {
 	var $ = require('jquery');
 	var rp = require('request-promise');
 
-    getItemTemplate();
+	getItemTemplate();
 
 	var filePath1 = path.join(__dirname, '../data/map-journal-sample.json');
 	var journalJson = fs.readFileSync(filePath1, { encoding: 'utf-8' });
