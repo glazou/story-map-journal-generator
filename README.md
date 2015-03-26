@@ -1,8 +1,8 @@
 # Story Map Journal Generator
 
-The Story Map Journal is ideal when you want to combine narrative text with maps and other embedded content. 
+[Story Map Journal](http://storymaps.arcgis.com/en/app-list/map-journal/) is ideal when you want to combine narrative text with maps and other embedded content. 
 
-The typical Map Journal creation involve using the integrated WYSIWYG builder. That app let you generate a Map Journal through a simple JSON document, without using that builder.
+The typical Map Journal creation involve using the integrated WYSIWYG builder. This application let you generate a Map Journal through a simple JSON document, without using that builder.
 
 The resulting application is hosted in ArcGIS Online, you can edit it later as if you had used the builder.
 
@@ -21,16 +21,16 @@ The usage scenarios are:
 1. Install [Node.js](http://nodejs.org/) 
 2. Download the application
 3. Run `npm install` in the application root
-4. Edit app/app.js with your credentials and an ArcGIS Online OAuth App ID, see [adding items for ArcGIS Online for Organizations users](http://doc.arcgis.com/en/arcgis-online/share-maps/add-items.htm#ESRI_SECTION1_0D1B620254F745AE84F394289F8AF44B) or [registering your application for ArcGIS for Developers users](https://developers.arcgis.com/authentication/signing-in-arcgis-online-users/#registering-your-application)
-5. Optionally if you want to use the `webmap-x-y` type, edit app/app.js with a webmap ID (`webmapForEmbed`)
+4. Edit app/app.js with your credentials
+5. Optionally, if you are going to use the `webmap-x-y` type, edit app/app.js with a webmap ID
 6. Run `node index`
 
 ### As a web application with OAuth authentication
 
 1. Download the application
 2. Deploy on a web server
-4. Edit app/app.js with an ArcGIS Online OAuth App ID, see [adding items for ArcGIS Online for Organizations users](http://doc.arcgis.com/en/arcgis-online/share-maps/add-items.htm#ESRI_SECTION1_0D1B620254F745AE84F394289F8AF44B) or [registering your application for ArcGIS for Developers users](https://developers.arcgis.com/authentication/signing-in-arcgis-online-users/#registering-your-application)
-5. Optionally if you want to use the `webmap-x-y` type, edit app/app.js with a webmap ID (`webmapForEmbed`)
+4. Edit app/app.js with an ArcGIS Online OAuth App ID, see [adding apps for ArcGIS Online for Organizations users](http://doc.arcgis.com/en/arcgis-online/share-maps/add-items.htm#ESRI_SECTION1_0D1B620254F745AE84F394289F8AF44B) or [registering your application for ArcGIS for Developers users](https://developers.arcgis.com/authentication/signing-in-arcgis-online-users/#registering-your-application)
+5. Optionally, if you are going to use the `webmap-x-y` type, edit app/app.js with a webmap ID
 6. Access the application over the web server
 
 ### As a web application with ArcGIS Online credentials
@@ -39,8 +39,8 @@ The usage scenarios are:
 2. Download the application
 3. Run `npm install` in the application root
 4. Edit app/app.js with your credentials
-5. Optionally if you want to use the `webmap-x-y` type, edit app/app.js with a webmap ID (`webmapForEmbed`)
-6. Run `node index`
+5. Optionally, if you are going to use the `webmap-x-y` type, edit app/app.js with a webmap ID
+6. Access the application over the web server
 
 **Make sure to not deploy the application on a public server to avoid exposing your credentials.**
 

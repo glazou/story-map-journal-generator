@@ -75,7 +75,7 @@ else {
 	var fs = require('fs');
 	var deferred = require('deferred');
 	var $ = require('jquery');
-    var rp = require('request-promise');
+	var rp = require('request-promise');
 
     getItemTemplate();
 
